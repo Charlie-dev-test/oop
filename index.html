@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>Homework OOP, prototype inheritance</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <div class="line"></div>
+    <div class="header-content">
+      <h1>Los pollos hermanos</h1>
+      <a href="/"></a>
+    </div>
+  </header>
+  <main>
+  <section class="greetings">
+    <div class="greetings_line"></div>
+    <h2><span>Добро пожаловать!</span></h2>
+    <div class="quotes__wrap">
+      <img class="quotes__wrap_img" src="./img/gus.png" alt="gus">
+      <blockquote class="quotes__wrap_quote">
+        Это лучшие ингредиенты. Самые острые специи. Все подготовлено с любовью и заботой!
+						И всегда доставлялся с дружелюбной улыбкой. Это обещание Лос-Поллос Херманос.<br>
+        <span>Гус Фринг - Владелец и управляющий</span>
+      </blockquote>
+    </div>
+  </section>
+  <section class="calculator">
+      <div class="colums">
+        <div class="left-column">
+          <form class="order">
+            <div class="order-row">
+              <img src="./img/burger.png" alt="burger" class="order-row__img">
+              <div class="order-row__select">
+                <h3>Гамбургер</h3>
+                <div class="selection">
+                  <select id="size" class="select-item two-item">
+                    
+                  </select>
+                  <select id="filles" class="select-item two-item">
+                    
+                  </select>
+                  <button id="burger-btn" type="button" class="btn">Добавить</button>
+                </div>
+              </div>
+            </div>
+            <div class="order-row">
+              <img src="./img/salat.png" alt="salat" class="order-row__img">
+              <div class="order-row__select">
+                <h3>Салат</h3>
+                <div class="selection">
+                  <select id="salad" class="select-item">
+                    
+                  </select>
+                  <button type="button" class="btn" id="salad-btn">Добавить</button>
+                </div>
+              </div>
+            </div>
+            <div class="order-row">
+              <img src="./img/drinks.png" alt="drinks" class="order-row__img">
+              <div class="order-row__select">
+                <h3>Напитки</h3>
+                <div class="selection">
+                  <select id="drinks" class="select-item">
+                    
+                  </select>
+                  <button type="button" class="btn" id="drinks-btn">Добавить</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="right-column">
+          <h3>Ваш заказ</h3>
+          <div id="list" class="orders">
+
+          </div>
+          <button id="purchase" type="button" class="btn btn-purchase">Заказать</button>
+          <div class="money">Стоимость вашего заказа: <span id="cost">0</span> тугриков.</div>
+          <div class="summary_calory">Калорийность Вашего заказа: <span id=calory>0</span> ккал</div>
+        </div>
+      </div>   
+  </section>
+  <section class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VSXn5_opwIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  </main>
+  <footer>
+    <div class="follow-us">
+      <h2>Следите за нами</h2>
+      <div class="social">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+    </div>
+    <div class="line"></div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
